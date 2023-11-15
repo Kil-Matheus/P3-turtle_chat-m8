@@ -1,0 +1,35 @@
+[0.628s] Invoking command in '/home/kil/Documentos/maps-turtle/meu_ros': PYTHONPATH=/home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/prefix_override:/home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/meu_ros build --build-base /home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/build install --record /home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/install.log --single-version-externally-managed
+[0.771s] running egg_info
+[0.780s] writing build/meu_ros/meu_ros.egg-info/PKG-INFO
+[0.780s] writing dependency_links to build/meu_ros/meu_ros.egg-info/dependency_links.txt
+[0.781s] writing entry points to build/meu_ros/meu_ros.egg-info/entry_points.txt
+[0.781s] writing requirements to build/meu_ros/meu_ros.egg-info/requires.txt
+[0.781s] writing top-level names to build/meu_ros/meu_ros.egg-info/top_level.txt
+[0.800s] reading manifest file 'build/meu_ros/meu_ros.egg-info/SOURCES.txt'
+[0.801s] writing manifest file 'build/meu_ros/meu_ros.egg-info/SOURCES.txt'
+[0.801s] running build
+[0.801s] running build_py
+[0.802s] running install
+[0.802s] /home/kil/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.802s] !!
+[0.802s] 
+[0.802s]         ********************************************************************************
+[0.802s]         Please avoid running ``setup.py`` directly.
+[0.802s]         Instead, use pypa/build, pypa/installer or other
+[0.802s]         standards-based tools.
+[0.802s] 
+[0.802s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.802s]         ********************************************************************************
+[0.802s] 
+[0.802s] !!
+[0.802s]   self.initialize_options()
+[0.806s] running install_lib
+[0.815s] running install_data
+[0.825s] running install_egg_info
+[0.835s] removing '/home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/python3.10/site-packages/meu_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[0.835s] Copying build/meu_ros/meu_ros.egg-info to /home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/python3.10/site-packages/meu_ros-0.0.0-py3.10.egg-info
+[0.836s] running install_scripts
+[0.930s] Installing nav2_test script to /home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/meu_ros
+[0.930s] Installing nav_waypoints script to /home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/meu_ros
+[0.930s] writing list of installed files to '/home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/install.log'
+[0.950s] Invoked command in '/home/kil/Documentos/maps-turtle/meu_ros' returned '0': PYTHONPATH=/home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/prefix_override:/home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/meu_ros build --build-base /home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/build install --record /home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/install.log --single-version-externally-managed

@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (meu_ros) JobQueued: {'identifier': 'meu_ros', 'dependencies': OrderedDict()}
+[0.000183] (meu_ros) JobStarted: {'identifier': 'meu_ros'}
+[0.099685] (-) TimerEvent: {}
+[0.200091] (-) TimerEvent: {}
+[0.300401] (-) TimerEvent: {}
+[0.400634] (-) TimerEvent: {}
+[0.500950] (-) TimerEvent: {}
+[0.601228] (-) TimerEvent: {}
+[0.701458] (-) TimerEvent: {}
+[0.776891] (meu_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/meu_ros', 'build', '--build-base', '/home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/build', 'install', '--record', '/home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/install.log', '--single-version-externally-managed'], 'cwd': '/home/kil/Documentos/maps-turtle/meu_ros', 'env': {'LANGUAGE': 'pt_BR:pt:en', 'USER': 'kil', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'OLDPWD': '/home/kil', 'HOME': '/home/kil', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/kil/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '1736', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kil', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'kil', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kil-Latitude-5420:@/tmp/.ICE-unix/1710,unix/kil-Latitude-5420:/tmp/.ICE-unix/1710', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ea62d834_0a86_4afa_acf5_70b5f89d8559', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.105', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8OMHE2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ROS_DOMAIN_ID': '33', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/home/kil/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/prefix_override:/home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.801542] (-) TimerEvent: {}
+[0.901780] (-) TimerEvent: {}
+[0.913159] (meu_ros) StdoutLine: {'line': b'running egg_info\n'}
+[0.922248] (meu_ros) StdoutLine: {'line': b'writing build/meu_ros/meu_ros.egg-info/PKG-INFO\n'}
+[0.922523] (meu_ros) StdoutLine: {'line': b'writing dependency_links to build/meu_ros/meu_ros.egg-info/dependency_links.txt\n'}
+[0.922704] (meu_ros) StdoutLine: {'line': b'writing entry points to build/meu_ros/meu_ros.egg-info/entry_points.txt\n'}
+[0.925393] (meu_ros) StdoutLine: {'line': b'writing requirements to build/meu_ros/meu_ros.egg-info/requires.txt\n'}
+[0.925470] (meu_ros) StdoutLine: {'line': b'writing top-level names to build/meu_ros/meu_ros.egg-info/top_level.txt\n'}
+[0.945117] (meu_ros) StdoutLine: {'line': b"reading manifest file 'build/meu_ros/meu_ros.egg-info/SOURCES.txt'\n"}
+[0.946847] (meu_ros) StdoutLine: {'line': b"writing manifest file 'build/meu_ros/meu_ros.egg-info/SOURCES.txt'\n"}
+[0.946964] (meu_ros) StdoutLine: {'line': b'running build\n'}
+[0.947018] (meu_ros) StdoutLine: {'line': b'running build_py\n'}
+[0.947214] (meu_ros) StdoutLine: {'line': b'running install\n'}
+[0.948441] (meu_ros) StderrLine: {'line': b'/home/kil/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[0.948505] (meu_ros) StderrLine: {'line': b'!!\n'}
+[0.948546] (meu_ros) StderrLine: {'line': b'\n'}
+[0.948584] (meu_ros) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.948622] (meu_ros) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[0.948659] (meu_ros) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[0.948698] (meu_ros) StderrLine: {'line': b'        standards-based tools.\n'}
+[0.948734] (meu_ros) StderrLine: {'line': b'\n'}
+[0.948771] (meu_ros) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[0.948808] (meu_ros) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.948846] (meu_ros) StderrLine: {'line': b'\n'}
+[0.948883] (meu_ros) StderrLine: {'line': b'!!\n'}
+[0.948920] (meu_ros) StderrLine: {'line': b'  self.initialize_options()\n'}
+[0.952143] (meu_ros) StdoutLine: {'line': b'running install_lib\n'}
+[0.961439] (meu_ros) StdoutLine: {'line': b'running install_data\n'}
+[0.970196] (meu_ros) StdoutLine: {'line': b'copying launch/test_launch.py -> /home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/share/meu_ros/launch\n'}
+[0.970295] (meu_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.979638] (meu_ros) StdoutLine: {'line': b"removing '/home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/python3.10/site-packages/meu_ros-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.979722] (meu_ros) StdoutLine: {'line': b'Copying build/meu_ros/meu_ros.egg-info to /home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/python3.10/site-packages/meu_ros-0.0.0-py3.10.egg-info\n'}
+[0.980188] (meu_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[1.001888] (-) TimerEvent: {}
+[1.069836] (meu_ros) StdoutLine: {'line': b'Installing nav2_test script to /home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/meu_ros\n'}
+[1.070066] (meu_ros) StdoutLine: {'line': b'Installing nav_waypoints script to /home/kil/Documentos/maps-turtle/meu_ros/install/meu_ros/lib/meu_ros\n'}
+[1.070257] (meu_ros) StdoutLine: {'line': b"writing list of installed files to '/home/kil/Documentos/maps-turtle/meu_ros/build/meu_ros/install.log'\n"}
+[1.088791] (meu_ros) CommandEnded: {'returncode': 0}
+[1.101999] (-) TimerEvent: {}
+[1.152752] (meu_ros) JobEnded: {'identifier': 'meu_ros', 'rc': 0}
+[1.153202] (-) EventReactorShutdown: {}

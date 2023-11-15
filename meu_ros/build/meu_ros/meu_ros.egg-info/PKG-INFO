@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: meu-ros
+Version: 0.0.0
+Summary: Pacote Caminho ROS2, primeiro comando de navegação salva a posição atual do robô e as demais posições são relativas a primeira.
+Maintainer: kil
+Maintainer-email: kil.teixeira@sou.inteli.edu.br
+License: CC0
+Requires-Dist: setuptools

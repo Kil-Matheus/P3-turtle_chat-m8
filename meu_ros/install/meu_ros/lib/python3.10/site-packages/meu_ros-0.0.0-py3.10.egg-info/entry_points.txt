@@ -1,0 +1,4 @@
+[console_scripts]
+chatbot = meu_ros.test_chatbot:main
+nav2_test = meu_ros.nav2_test:main
+nav_waypoints = meu_ros.nav_waypoints:main
